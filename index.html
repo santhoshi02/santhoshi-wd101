@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+   
+    <title>WD 101</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="parts">
+            <h1>Registration Form</h1>
+            <form  action="" class="form" id="userForm">
+              <div>  <label  for="name">Name:</label>
+                <input class="float" type="text" id="name" name="name"  required></div><br>
+                <div> <label for="name">Email:</label>
+                <input class="float" type="email" id="email" name="email" \ required></div><br>
+                <div> <label for="name">Password:</label>
+                <input class="float" type="password" id="password" name="password" minlength="8" 
+                    required></div><br>
+                    <div> <label for="name">Date of birth:</label>
+                <input class="float" type="date" id="dob" name="dob" placeholder="Dob" min="" max="" required></div><br>
+                <div>  <label class="float" for="atnc">Accept terms and conditions : </label>
+                <input class="float" type="checkbox" name="atnc" id="atnc" required></div><br>
+                <div>  <button class="submit" type="submit">Submit</button></div>
+            </form>
+
+        </div>
+        <div class="parts" id="tableView">
+            <h1>Entries</h1>
+            <table class="table">
+                <tr class="bor">
+                    <th class="bor">Name</th>
+                    <th class="bor">Email</th>
+                    <th class="bor">Password</th>
+                    <th class="bor">Dob</th>
+                    <th class="bor">Accepted terms?</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
